@@ -1,13 +1,9 @@
-/* --------------------------------
-Site:       Site name
-CSS author: Your name here
-Updated:    Date
-Updated by: Your name here
+/* ------------Author--------------------
+Site:       Alfa Barber
+CSS author: Brayan Linhar
+Updated:    01/01/2023
+Updated by: Brayan Linhar
 -------------------------------- */
-
-/* ----------------------------
-simple reset
----------------------------- */
 
 .row::before,
 .row::after {
@@ -39,5 +35,9 @@ div#nav {
     height: 80px;
     margin-bottom: 80px;
     float: left;
-    position: fixed;
+    position:relative;
+}
+
+ul li {
+    color: aliceblue;
 }
