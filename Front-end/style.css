@@ -29,13 +29,20 @@ Updated by: Brayan Linhar
     }
 }
 
-div#nav {
-    background: #543af5;
+nav#mainnav {
+    background: #533af5;
     width: 100%;
     height: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+    margin-top:0px;
     float: left;
     position:relative;
+}
+
+nav#mainnav h1 {
+    font-size: 32px;
+    margin: 4px auto -6px 8px;
+    box-shadow: 1px 2px 4px #020486;
 }
 
 ul.menu a {
@@ -45,6 +52,7 @@ ul.menu a {
 }
 
 ul.menu > li {
+    display: inline;
     float:left; //irão flutuar a esquerda
     position:relative; //A posição relativa ao pai
 }
@@ -52,7 +60,7 @@ ul.menu > li {
 /*Configurar os links do menu principal*/
 ul.menu > li > a {
     position: relative;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 10px;
 }
 
