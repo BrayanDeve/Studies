@@ -30,9 +30,9 @@ Updated by: Brayan Linhar
 }
 
 nav#mainnav {
-    background: #533af5;
+    background: #202020ad;
     width: 100%;
-    height: 80px;
+    height: 96px;
     margin-bottom: 60px;
     margin-top:0px;
     float: left;
@@ -42,19 +42,19 @@ nav#mainnav {
 nav#mainnav h1 {
     font-size: 32px;
     margin: 4px auto -6px 8px;
-    box-shadow: 1px 2px 4px #020486;
+    box-shadow: -2px 0px 16px #ffe100;
 }
 
 ul.menu a {
-    text-decoration:none; //Quero remover o sublinhado da linha
-    color: #fff; //cor do link
-    display:block; //faz com que o elemento HTML seja renderizado como bloco, aqui acontece a magica;
+    text-decoration:none; /*Quero remover o sublinhado da linha*/
+    color: #fff; /*cor do link*/
+    display:block; /*faz com que o elemento HTML seja renderizado como bloco, aqui acontece a magica*/
 }
 
 ul.menu > li {
     display: inline;
-    float:left; //irão flutuar a esquerda
-    position:relative; //A posição relativa ao pai
+    float:left; /*irão flutuar a esquerda*/
+    position:relative; /*A posição relativa ao pai*/
 }
 
 /*Configurar os links do menu principal*/
@@ -68,17 +68,20 @@ ul.menu > li > a {
 ul.menu > li > a:active{
    top: 3px;
    left: 2px;
-   box-shadow: 0px -2px 0px #009900;
-   font-size: 12px;
-   width: 150px;
+   box-shadow: 0px -2px 0px #829900;
+   font-size: 14px;
+   width: 120px;
    text-align: center;
 }
 
 /*Configurar o fundo do menu principal quando o mause passar em cima do meu link*/
 ul.menu > li > a:hover{
-   background: #009900;
+   background: #fdf21e28;
+   border-radius: 4%;
+   border-style:groove;
 }
-Se tivesse dentro das suas li(s) outra ul:
+
+/*Se tivesse dentro das suas li(s) outra ul:*/
 
 /*Mostrar o submenu no evento do mouse hover*/
 ul.menu > li:hover > ul.submenu{
